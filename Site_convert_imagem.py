@@ -8,7 +8,7 @@ Created on Sat Dec  7 15:02:38 2024
 
 import streamlit as st
 from PIL import Image
-import pillow_avif
+#import pillow_avif
 import os
 
 st.set_page_config(layout = "centered")
@@ -18,7 +18,7 @@ st.title("Conversor de imagens para png")
 st.write("Converta aquelas imagens chatas .webp para pngs")
 
 arquivo = st.file_uploader(label = "Upload Imagem",
-                 type = ["png","jpg","jpeg","webp","AVIF"],
+                 type = ["png","jpg","jpeg","webp"],
                  help = "Clique para dar upload sua imagem")
 
 
