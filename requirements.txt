@@ -1,2 +1,2 @@
 Pillow
--r pillow_avif
+-r pillow-avif-plugin Pillow
