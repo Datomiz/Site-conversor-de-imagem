@@ -1,2 +1,2 @@
 Pillow
-pillow_avif
+-r pillow_avif
